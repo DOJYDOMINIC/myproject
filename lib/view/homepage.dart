@@ -7,6 +7,7 @@ import 'package:myproject/view/widgets/lotties.dart';
 import 'package:provider/provider.dart';
 import '../control/providers/providerone.dart';
 
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -15,7 +16,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
-  late FlutterTts flutterTts;
+  late FlutterTts flutterTts; 
   late final AnimationController _delivery;
   late final AnimationController _calling;
   late final AnimationController _tiger;

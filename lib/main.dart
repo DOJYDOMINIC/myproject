@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:myproject/view/homepage.dart';
+import 'package:myproject/view/admin/admin_login.dart';
 import 'package:provider/provider.dart';
 
 import 'control/providers/providerone.dart';
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         localizationsDelegates: context.localizationDelegates,
         supportedLocales: context.supportedLocales,
         locale: context.locale,
-        home: Consumer(builder: (context, value, child) => HomePage()),
+        home: Consumer(builder: (context, value, child) => AdminLogin()),
       ),
     );
   }
